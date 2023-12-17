@@ -17,7 +17,7 @@ This assignment focused on gas optimizing a smart contract named `Distribute.sol
 ### My Process
 
 1. **Optimize `distribute()`**: I decided to focus only on reducing the gas consumption of the `distribute()` function.
-2. **Unit Testing for Gas Usage**: To save time, I nly wrote two unit-tests per contract, my goal was to have enough to just determine the gas usage.
+2. **Unit Testing for Gas Usage**: To save time, I only wrote two unit-tests per contract, my goal was to have enough to just determine the gas usage.
 3. **Documentation**: I spent the last time I had left to write this README.
 
 ## The changes in my Optimized Contract
