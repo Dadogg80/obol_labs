@@ -22,7 +22,7 @@ This assignment focused on gas optimizing a smart contract named `Distribute.sol
 
 ## The changes in my Optimized Contract
 
-### Key Changes
+### Key Changes - Optimized `distribute()` function
 
 1. **Immutable Variable**: Changed `createTime` to an immutable variable `distributeTime`, added with `2 weeks` set at contract deployment instead of inside `distribute()`.
 2. **Internal Visibility**: Changed the state variables `distributeTime` and `contributors` to internal variables.
@@ -33,10 +33,12 @@ This assignment focused on gas optimizing a smart contract named `Distribute.sol
 - **`distribute()` Function**:
   - Original: 90656 gas
   - Optimized: 88321 gas
+  - OtmimizedContract: 81851 gas  (Last task)
 
 - **Deployment Gas Usage**:
   - Original: 602781 gas
   - Optimized: 445416 gas
+  - OtmimizedContract: 254740 gas (Last task)
 
 ## How to Run
 

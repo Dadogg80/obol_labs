@@ -32,11 +32,6 @@ describe("Optimised", function () {
             console.log(await optimized.getAddress());
             console.log(contributors);
         });
-        /* 
-        it("Should revert with custom error 'Code1()'", async function () {
-            const { optimized } = await loadFixture(deployOptimizedFixture);
-            await expect(optimized.distribute()).to.be.revertedWithCustomError(optimized, 'Code1()');
-        }); */
 
         it("should successfully distribute funds after 'distributeTime'", async function () {
             const { optimized, contributors } = await loadFixture(deployOptimizedFixture);
